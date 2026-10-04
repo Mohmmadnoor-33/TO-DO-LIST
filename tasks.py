@@ -61,4 +61,3 @@ def delete_task(id_mission : int , user_id : int = Depends(get_current_user)):
     else:
         connection.close()
         raise HTTPException(status_code=404, detail="Task not found")
-    #task
