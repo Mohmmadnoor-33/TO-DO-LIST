@@ -24,7 +24,8 @@ Each user can only see and edit their own tasks.
    git clone https://github.com/Mohmmadnoor-33/TO-DO-LIST.git
    cd TO-DO-LIST
 
-2. Create and activate a virtual environment, then install the dependencies.
+2. Create and activate a virtual environment, then install the dependencies:
+   pip install -r requirements.txt
 
 3. Create a `.env` file in the project folder and add your secret key:
    SECRET_KEY=your_secret_key_here
