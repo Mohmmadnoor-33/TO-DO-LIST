@@ -30,7 +30,10 @@ Each user can only see and edit their own tasks.
 3. Create a `.env` file in the project folder and add your secret key:
    SECRET_KEY=your_secret_key_here
 
-4. Create the PostgreSQL database `to_do_list` with the `users` and `tasks` tables.
+4. Create the PostgreSQL database and its tables:
+   CREATE DATABASE to_do_list;
+   then connect to it and run the schema file:
+   \i 'path/to/schema.sql'
 
 5. Run the server:
    python -m uvicorn main:app --reload
