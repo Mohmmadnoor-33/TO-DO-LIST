@@ -1,6 +1,6 @@
 # TO DO LIST PROJECT
 
-A task management REST API where multiple users can sign up, Simple 
+A task management REST API where multiple users can sign up, Quick 
 log in, and manage their own daily tasks, marking each one as done or pending.
 Each user can only see and edit their own tasks.
 
