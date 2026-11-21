@@ -48,3 +48,5 @@ Each user can only see and edit their own tasks.
 - GET /tasks - list your tasks (supports status, limit, offset)
 - PUT /tasks/{id} - update a task
 - DELETE /tasks/{id} - delete a task
+- ## License
+- MIT
